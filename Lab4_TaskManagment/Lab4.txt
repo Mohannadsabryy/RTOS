@@ -1,0 +1,4 @@
+Lab4: Passing parameters to tasks (2nd serial example) 
+In this lab, It’s required to implement 2 tasks ("Task 1" and "Task 2") of the same priority sharing the 
+same task body (function) but for varied behavior, each task shall print its message like "Task 1 is 
+running\r\n" and "Task 2 is running\r\n" sent over UART every second. 

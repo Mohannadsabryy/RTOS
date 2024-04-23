@@ -1,0 +1,5 @@
+Question:
+This introductory lab demonstrates the idea of multitasking with FreeRTOS, The setup involves two tasks, 
+vPeriodicTask1 and vPeriodicTask2, both having equal priority. FreeRTOS smoothly switches between 
+these tasks, enabling each to print its message "Task x is running\r\n" through UART in a loop every 1 
+second. 

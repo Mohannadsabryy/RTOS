@@ -1,0 +1,5 @@
+Question:
+It is required to implement a FreeRTOS app which consists of two tasks, vPeriodicGreenLedTask and 
+vPeriodicRedLedTask, which are implemented with equal priority. The scheduler efficiently alternates 
+between these tasks, resulting in a constant cycle where each task blinks an LED for one second. The 
+vPeriodicGreenLedTask toggles the green LED, while the vPeriodicRedLedTask toggles the red LED. 

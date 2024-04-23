@@ -1,0 +1,5 @@
+Lab3: Passing parameters to tasks (1st serial example) 
+This example serves as an introduction to the concept of passing parameters to tasks using FreeRTOS's 
+xTaskCreate function. The application features a single task, vPeriodicTask, which is responsible for 
+periodically sending a predefined text, "Task 1 is running\r\n," via UART every second. The task creation 
+involves passing the text as a parameter to the task through pvParameters.
