@@ -1,0 +1,6 @@
+Lab6: FreeRTOS Delay & Idle Task 
+This lab is to explain the concept of using vTaskDelay as an alternative to traditional blocking delays. This 
+example serves as an introduction to the efficient management of task delays within FreeRTOS. 
+Additionally, the lab illustrates the idea of the idle task in the overall system. Tasks, represented by " 
+vPeriodicGreenLedTask" and " vPeriodicRedLedTask," utilize vTaskDelay to achieve dynamic LED toggling 
+between green and red LEDs using non-blocking delays of 1sec.  

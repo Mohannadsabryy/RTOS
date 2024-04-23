@@ -1,0 +1,7 @@
+Lab7: Fixed Priority Preemptive Scheduling with Time Slicing 
+This example demonstrates the first scheduling type offered by FreeRTOS - Fixed Priority Preemptive 
+Scheduling with Time Slicing. The application comprises three tasks, each assigned a specific priority - 
+"Task 1" with a priority of 2, and "Task 2" and "Task 3" with a priority of 1. As "Task 1" starts, it prints its 
+string and then enters a non-blocking delay of 2 seconds using vTaskDelay. This delay allows the two 
+lower-priority tasks to execute in a time-sliced manner, each running for 1 second before returning to 
+"Task 1." 

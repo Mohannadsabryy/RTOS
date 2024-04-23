@@ -1,0 +1,6 @@
+Lab9: Fixed Priority Cooperative Scheduling 
+This example demonstrates the third scheduling type offered by FreeRTOS - Fixed Priority Cooperative 
+Scheduling. The application is the same as the previous lab which comprises three tasks, each assigned a 
+specific priority - "Task 1" with a priority of 2, and "Task 2" and "Task 3" with a priority of 1. 
+
+// same as the previous example i will change in the configuration file only that i will make the preemption macro equal to 0 which mean that it will work as a cooperative scheduling that a task will not release the cpu only if it uses the taskyeild() or it was blocked 

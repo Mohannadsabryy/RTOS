@@ -1,0 +1,9 @@
+Lab8: Fixed Priority Preemptive Scheduling without Time Slicing 
+This example demonstrates the second scheduling type offered by FreeRTOS - Fixed Priority Preemptive 
+Scheduling without Time Slicing. The application is the same as the previous lab which comprises three 
+tasks, each assigned a specific priority - "Task 1" with a priority of 2, and "Task 2" and "Task 3" with a 
+priority of 1. As "Task 1" initiates, it prints its message and introduces a delay of 2 seconds using 
+vTaskDelay. This delay ensures that "Task 2" and "Task 3," both with lower priorities, execute one after 
+the other, rather than in a time-sliced manner.  
+
+// changes will be in the configuration file only that time slicing macro will be 0.
